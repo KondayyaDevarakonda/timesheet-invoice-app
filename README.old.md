@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Prerequisites
+React, Redux, and TypeScript.
+
+# To create project from start use below for commands to create project and install required plugins
+npx create-react-app timesheet-invoice-app --template typescript
+# install Redux
+npm install redux react-redux redux-thunk 
+# install their types as development dependencies to help TypeScript understand the libraries
+npm install -D @types/redux @types/react-redux @types/redux-thunk
+
 ## Available Scripts
 
 In the project directory, you can run:
